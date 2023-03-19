@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Backend-skolprojekt1/static/css/main.db85c19c.css",
+    "main.js": "/Backend-skolprojekt1/static/js/main.1403acfb.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Backend-skolprojekt1/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Backend-skolprojekt1/index.html",
+    "main.db85c19c.css.map": "/Backend-skolprojekt1/static/css/main.db85c19c.css.map",
+    "main.1403acfb.js.map": "/Backend-skolprojekt1/static/js/main.1403acfb.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Backend-skolprojekt1/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db85c19c.css",
+    "static/js/main.1403acfb.js"
+  ]
+}
