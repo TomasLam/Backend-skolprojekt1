@@ -31,7 +31,8 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    width: auto;
+
     
 }
  
@@ -81,6 +82,44 @@ a:hover{
     box-shadow: 0 0 3px 1px rgb(221, 219, 219);
 }
 
+
+.white-circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 14px;
+    height: 30px;
+    width: 30px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border-radius: 15px;
+    background-color: white;
+    color: var(--color-dark);
+    box-shadow: 0 0 3px 1px rgb(221, 219, 219);
+    border: none;
+    cursor: pointer;
+}
+
+.Shopcartadded{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    background-color: #FF7373;
+    color: white;
+    width: 17px;
+    height: 17px;
+    border-radius: 10px;
+}
+
+.thebag{
+    position: relative;
+    color: var(--color-dark);
+}
+
 .sect-one{
     
     background-color: #F5F5F5;
@@ -88,6 +127,11 @@ a:hover{
 
 .posing-girl{
     display: flex;
+}
+
+.thebag:hover{
+    color: #FF7373;
+    transition: 0.5s;
 }
 
 .sect-two{
@@ -282,8 +326,8 @@ a:hover{
   
   
   .card .card-menu{
-      position: absolute;
-      display: block;
+      position: relative;
+      
       top: 10px;
       right: -5px;
   }
@@ -599,3 +643,33 @@ a:hover{
     position: relative;
     margin-left: 840px;
 }
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    /* width: 250px; */
+    height: 100%;
+    background-color: white;
+    z-index: 999;
+    transition: right 0.3s ease-in-out;
+  }
+  
+  .cart-open {
+     right: 0;
+  }
+    
+    .toggle-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: #fff;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    
+    .content {
+      padding: 20px;
+    }

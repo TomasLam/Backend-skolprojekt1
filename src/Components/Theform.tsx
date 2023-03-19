@@ -45,7 +45,7 @@ function Theform() {
        
           <div className="comment-box">
           <label className="comments-lower" htmlFor="comments"></label>
-          <textarea className="commentsinput-lower"  id="comments" placeholder="Comments"/>
+          <textarea className="commentsinput-lower"   id="comments" placeholder="Comments"/>
           </div>
 
           <div>

@@ -1,21 +1,24 @@
-
+import React, {useState} from 'react';
 import './App.css';
 
 import Home from "./Pages/Home"
 import Contact from './Pages/Contact';
-import { HashRouter as Router, Route,} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Productsview from './Pages/Productsview';
 
 
 function App() {
   return (
     <div className="App">
       <Router>
-          <Route path="/">
-            <Home />
+        <Routes>
+           <Route path="/" element={<Home />}>
           </Route> 
-          <Route path="/Contact">
-            <Contact />
-          </Route>        
+          <Route path="/Contact" element={<Contact />}>
+          </Route>
+          <Route path="/Productsview" element={<Productsview />}>
+          </Route> 
+          </Routes>       
       </Router>
     </div>
   );
